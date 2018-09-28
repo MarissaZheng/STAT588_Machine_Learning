@@ -5,7 +5,7 @@ This repo is created for homeworks/projects and my personal notes of STAT588 Mac
 
 ## Table of Contents
 
-[Syllabus](#syllabus)
+[Syllabus](#none)
 [File Legend](#files)
 [Other Resources](#resources)  
 
