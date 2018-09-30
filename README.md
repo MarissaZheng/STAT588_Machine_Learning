@@ -32,7 +32,8 @@ This repo is created for homeworks/projects and my personal notes of STAT588 Mac
 ## File Legend<a name="files"></a>
 ### Scripts
 **ridge_regression_w_cross_validation.R**  
-
+**ols_ridge_lasso.R:** a comparison between OLS, ridge and Lasso regression  
+**lasso_regression.R**
 
 ## Other Resources <a name="resources"></a>
 
