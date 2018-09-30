@@ -3,7 +3,7 @@
 ################
 ##
 ## INSTRUCTIONS:
-## The following file performs ridge regression with cross-validation
+## The following file performs ridge regression with k-fold cross-validation
 ## 
 ################
 
@@ -50,10 +50,10 @@ errs = rep(0, length(lambda_ls))
 
 for (k in 1:K){
   valid_ix = ((k-1)*(n/K) + 1):(k*(n/K))
-  Xtrain <- X1[valid_ix, ]
-  Ytrain <- Y1[valid_ix]
-  Xvalid <- X1[-valid_ix, ]
-  Yvalid <- Y1[-valid_ix]
+  Xtrain <- X1[-valid_ix, ]
+  Ytrain <- Y1[-valid_ix]
+  Xvalid <- X1[valid_ix, ]
+  Yvalid <- Y1[valid_ix]
   for (il in 1:length(lambda_ls)){
     lambda = lambda_ls[il]
     beta_ridge = solve(t(Xtrain) %*% Xtrain + lambda*diag(p), t(Xtrain) %*% Ytrain)
