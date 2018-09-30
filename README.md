@@ -38,7 +38,7 @@ This repo is created for homeworks/projects and my personal notes of STAT588 Mac
 ## Other Resources <a name="resources"></a>
 
 * Data Science Resources (Mostly Free): [Link](https://github.com/Shujian2015/FreeML) Covering machine learning, deep learning, analytics and more.
-* Pattern Recognition by NPTEL: [Videos](https://www.youtube.com/playlist?list=PLbMVogVj5nJSlpmy0ni_5-RgbseafOViy) Well structured and mathetically explained.
+* Pattern Recognition by NPTEL: [Videos](https://www.youtube.com/playlist?list=PLbMVogVj5nJSlpmy0ni_5-RgbseafOViy) Well structured and mathematically explained.
 * Machine Learning list of StatQuest: [Videos](https://www.youtube.com/watch?v=FgakZw6K1QQ&list=PLblh5JKOoLUICTaGLRoHQDuF_7q2GfuJF) Machine Learning methods clearly explained without complicated terminology. 
 
 
